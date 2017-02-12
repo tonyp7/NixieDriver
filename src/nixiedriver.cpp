@@ -20,7 +20,7 @@
 
 
 
-void NixieDriver::NixieDriver(uint8_t a, uint8_t b, uint8_t c, uint8_t d){
+NixieDriver::NixieDriver(uint8_t a, uint8_t b, uint8_t c, uint8_t d){
 	this->_a = a;
 	this->_b = b;
 	this->_c = c;
